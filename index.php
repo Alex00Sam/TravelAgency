@@ -1,4 +1,5 @@
 <?php
+
 require 'init.php';
 $reg = $app->layout->add('Button');
 $reg->set('For clients');
