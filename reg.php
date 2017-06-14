@@ -23,8 +23,7 @@
 		}  */
 		
 	});
-	
-	$back=$app->layout->add('Button');
 	echo '<br>';
+	$back=$app->layout->add('Button');
 	$back->set('Back');
 	$back->link('index.php');
