@@ -23,7 +23,7 @@
 		}  */
 		
 	});
-	echo '<br>';
+	$layout->add(['ui'=>'hidden divider']);
 	$back=$app->layout->add('Button');
 	$back->set('Back');
 	$back->link('index.php');
