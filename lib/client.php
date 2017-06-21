@@ -7,5 +7,6 @@ class client extends \atk4\data\Model {
 		$this->addField('surname', ['required'=>true]);
 		$this->addField('email', ['required'=>true]);
 		$this->addField('destination', ['required'=>true]);
+		$this->addField('feedback', ['required'=>true]);
 	}
 }
